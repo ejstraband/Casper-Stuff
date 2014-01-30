@@ -6,7 +6,7 @@
 who | grep console
 if [ `echo $?` == 0 ]; then
 
-sar -u 1 5 >> /Users/Shared/sargathering
+sar -u 1 5 >> /Users/Shared/bloomHealth/sargathering
 
 else
 
