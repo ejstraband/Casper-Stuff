@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # Gathers machine usage based on a logged in user
-
-
 who | grep console
 if [ `echo $?` == 0 ]; then
 
